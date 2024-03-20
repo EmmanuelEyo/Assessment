@@ -1,1 +1,390 @@
+:root {
+    --tw-space-x-reverse: 0;
+}
+
+@media (min-width: 350px) {
+    .hero {
+        margin-left: 15.5rem;
+        max-width: 380px;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+    .image{
+        display: flex;
+        height: 7rem;
+        width: 8rem;
+    }
+    .hero-text{
+        font-size: 1.2rem;
+        line-height: 1.75rem;
+    }
+    .hero-p{
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.25rem
+    }
+    .profit-body{
+        margin-left: 15.5rem;
+        width: 11rem;
+        margin-top: 14px;
+    }
+    .sales-body{
+        margin-left: 28rem;
+        width: 11rem;
+        margin-top: -13.9rem
+    }
+    .profit-shift{
+        margin-left: -14px;
+    }
+    .sales-shift{
+        margin-left: -14px;
+    }
+    .payments-shift{
+        margin-left: -14px;
+    }
+    .transactions-shift{
+        margin-left: -14px;
+    }
+    .profit-dot{
+        margin-left: 5rem;
+        margin-top: 8px;
+    }
+    .sales-dot{
+        margin-left: 5rem;
+        margin-top: 8px;
+    }
+    .payments-dot{
+        margin-left: 5rem;
+        margin-top: 8px;
+    }
+    .transactions-dot{
+        margin-left: 5rem;
+        margin-top: 8px;
+    }
+    .revenue-body{
+        display: block;
+        margin-left: 15.8rem;
+        width: 23rem;
+        border-radius: 15px;
+    }
+    .revenue-text{
+        margin-left: 50px;
+    }
+    .chart{
+        margin-left: -6rem;
+    }
+    .revenue-dot{
+        margin-left: 15rem;
+    }
+    .revenue-dropdown{
+        margin-top: 4rem;
+    }
+    .revenue-dropdown-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .revenue-p{
+        font-size: 1.1rem;
+        line-height: 1.75rem;
+        margin-top: 1px;
+        margin-right: 1rem;
+    }
+    .revenue-box{
+        margin-left: -3rem;
+    }
+    .payments-body{
+        margin-left: 16rem;
+        width: 11rem;
+        margin-top: 1rem
+    }
+    .transactions-body{
+        margin-left: 28rem;
+        width: 11rem;
+        margin-top: -13.9rem
+    }
+    .profile-body-main{
+        margin-left: 16rem;
+        width: 367px;
+    }
+    .profile-chart{
+        width: 60%;
+        margin-top: -10rem;
+        margin-left: 10rem;
+    }
+    .transaction-body{
+        margin-top: 25px;
+        margin-left: 506px;
+        max-width: 23rem;
+        /* display: flex;
+        justify-content: end; */
+    }
+    .income-expense-body{
+        margin-top: 2rem;
+        margin-left: 255px;
+        width: 23rem;
+    }
+    .transaction-desc{
+        font-size: 0.8rem;
+        line-height: 1.75rem;
+    }
+    .transaction-dots{
+        margin-left: 10rem;
+    }
+    .statistics-body{
+        margin-left: 16.2rem;
+        margin-top: 2rem;
+        width: 22.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .statistics-body{
+        margin-left: 3rem;
+        
+        width: 24rem;
+    }
+    .hero-p{
+        margin-top: 1.5rem
+    }
+    .hero {
+        margin-left: 2.5rem;
+        max-width: 768px;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .transaction-desc{
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+    .income-expense-body{
+        margin-top: -32rem;
+        margin-left: 445px;
+        width: 24rem
+    }
+    .transaction-dots{
+        margin-left: 20rem
+    }
+    .profile-chart{
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: -3rem;
+    }
+    .transaction-body{
+        margin-top: -50rem;
+        margin-left: 846px;
+        max-width: 36rem
+    }
+    .profile-body-main{
+        margin-left: 52rem;
+        width: 550px;
+        height: 19rem
+    }
+    .revenue-dropdown-main{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .revenue-p{
+        margin-top: -12px;
+        margin-right: 2rem
+    }
+    .image{
+        height: 10rem;
+        width: 11rem;
+    }
+    .hero-text{
+        font-size: 1.7rem;
+        line-height: 1.75rem
+    }
+    .hero-p{
+        font-size: 0.875rem;
+        line-height: 1.25rem
+    }
+    .profit-body{
+        margin-left: 52rem;
+        width: 16rem;
+        margin-top: -13.5rem;
+    }
+    .payments-body{
+        margin-left: 52rem;
+        width: 16rem;
+        margin-top: -34.5rem
+    }
+    .sales-body{
+        margin-left: 70rem;
+        width: 16rem;
+        margin-top: -13.3rem
+    }
+    .transactions-body{
+        margin-left: 70rem;
+        width: 16rem;
+        margin-top: -14.5rem
+    }
+    .profit-dot{
+        margin-left: 9rem
+    }
+    .sales-dot{
+        margin-left: 9rem;
+        margin-top: 8px;
+    }
+    .revenue-body{
+        display: flex;
+        margin-left: 3rem;
+        width: 48rem;
+    }
+    .chart{
+        margin-left: 0;
+    }
+    .revenue-text{
+        margin-left: 0;
+    }
+    .progress-bar{
+        margin-left: -200px;
+    }
+}
+
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    .hero {
+        margin-left: 5.5rem;
+        max-width: 700px;
+    }
+    .image{
+        height: 10rem;
+        width: 11rem;
+    }
+    .hero-text{
+        font-size: 1.5rem;
+        line-height: 1.75rem
+    }
+    .hero-p{
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.25rem
+    }
+    .profit-body{
+        margin-left: 5.5rem;
+        width: 21rem;
+        margin-top: 14px;
+    }
+    .sales-body{
+        margin-left: 28rem;
+        width: 21rem;
+        margin-top: -13.9rem
+    }
+    .profit-shift{
+        margin-left: 2px;
+    }
+    .sales-shift{
+        margin-left: 2px;
+    }
+    .payments-shift{
+        margin-left: 2px;
+    }
+    .transactions-shift{
+        margin-left: 2px;
+    }
+    .profit-dot{
+        margin-left: 14rem;
+        margin-top: 8px;
+    }
+    .sales-dot{
+        margin-left: 14rem;
+        margin-top: 8px;
+    }
+    .payments-dot{
+        margin-left: 14rem;
+        margin-top: 8px;
+    }
+    .transactions-dot{
+        margin-left: 14rem;
+        margin-top: 8px;
+    }
+    .revenue-body{
+        /* display: block; */
+        display: flex;
+        margin-left: 5.8rem;
+        width: 43rem;
+        border-radius: 15px;
+    }
+    .revenue-text{
+        margin-left: 50px;
+    }
+    .chart{
+        margin-left: -6rem;
+    }
+    .revenue-dot{
+        margin-left: 15rem;
+    }
+    .revenue-dropdown{
+        margin-top: 4rem;
+    }
+    .revenue-dropdown-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .revenue-p{
+        font-size: 1.1rem;
+        line-height: 1.75rem;
+        margin-top: 1px;
+        margin-right: 1rem;
+    }
+    .revenue-box{
+        margin-left: -3rem;
+    }
+    .payments-body{
+        margin-left: 6rem;
+        width: 21rem;
+        margin-top: 1rem
+    }
+    .transactions-body{
+        margin-left: 28rem;
+        width: 21rem;
+        margin-top: -13.9rem
+    }
+    .profile-body-main{
+        margin-left: 6.5rem;
+        width: 680px;
+    }
+    .profile-body-mini{
+        margin-left: 20px;
+    }
+    .profile-chart{
+        width: 80%;
+        margin-top: -2rem;
+        margin-left: 2rem;
+    }
+    .transaction-body{
+        margin-top: 25px;
+        margin-left: 506px;
+        max-width: 23rem;
+        /* display: flex;
+        justify-content: end; */
+    }
+    .income-expense-body{
+        margin-top: 2rem;
+        margin-left: 105px;
+        width: 43rem;
+    }
+    .transaction-desc{
+        font-size: 0.8rem;
+        line-height: 1.75rem;
+    }
+    .transaction-dots{
+        margin-left: 10rem;
+    }
+    .statistics-body{
+        margin-left: 6.9rem;
+        margin-top: 2rem;
+        width: 42.5rem;
+    }
+    .progress-bar{
+        margin-left: -80px;
+    }
+}
 

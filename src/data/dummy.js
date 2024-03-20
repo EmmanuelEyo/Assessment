@@ -1,37 +1,20 @@
 // dummy.js
-import { FaHouse, FaUserPlus } from "react-icons/fa6";
+import { FaHouse, } from "react-icons/fa6";
 import { RiUserSettingsFill } from "react-icons/ri";
-import { LuLogIn } from "react-icons/lu";
 
 export const links = [
   {
     title: 'Dashboard',
     links: [
       {
+        url: 'dashboard',
         name: 'dashboard',
         icon: <FaHouse />,
       },
-    ],
-  },
-  {
-    title: 'Account Settings',
-    links: [
       {
+        url: 'dashboard/account-settings',
         name: 'account-settings',
         icon: <RiUserSettingsFill />,
-      },
-    ],
-  },
-  {
-    title: 'Pages',
-    links: [
-      {
-        name: 'login',
-        icon: <LuLogIn />,
-      },
-      {
-        name: 'register',
-        icon: <FaUserPlus />,
       },
     ],
   },
